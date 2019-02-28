@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav role="navigation" class="navbar navbar-transparent navbar-top">
+        <div class="container">
+            <div class="navbar-header"> <a href="#page-top" class="navbar-brand"><span><img src="https://gridbox.io/projects/25e76cb0-fc47-4444-8f82-3c0e3d7da099/assets/img/logo.png"/></span>  Your Product</a> </div>
+        </div>
+    </nav>
+    <div id="h" class="header">
+        <div class="img-overlay">
+            <div class="container pt-1">
+                <h1>Your Product Pitch. </h1>
+                <p class="hero-subheading">Quick introduction to your product. </p>
+                <div class="centered"> <a href="#intro" class="btn btn-cyan btn-lg animated fadeIn"><b>Learn More
+              </b></a> </div>
+            </div>
+        </div>
+    </div>
+    <div id="intro">
+        <div class="container-fluid bg-intro">
+            <div class="row feature-inner">
+                <div class="col-md-6 col-sm-6">
+                    <h2>Who is it for? </h2> <br/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu elit mauris. Integer sollicitudin tempus.Lorem ipsum dolor sit amet. </p>
+                    <p class="sub"> <i aria-hidden="true" class="fa fa-check-circle-o"></i> Lorem ipsum dolor sit amet consectetur. </p>
+                    <p class="sub"> <i aria-hidden="true" class="fa fa-check-circle-o"></i> Lorem ipsum dolor sit amet consectetur. </p> <br/> <a href="#features" class="btn btn-plain">View features</a> </div>
+                <div class="col-md-6 col-sm-6">
+                    <p class="align-center"> <img src="https://www.gridbox.io/projects/25e76cb0-fc47-4444-8f82-3c0e3d7da099/assets/img/intro.png" class="img-responsive" /> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="features">
+        <div class="container feature-inner">
+            <div class="row">
+                <div class="col-md-6 col-sm-7">
+                    <p class="align-center"> <img src="https://www.gridbox.io/projects/25e76cb0-fc47-4444-8f82-3c0e3d7da099/assets/img/screenshot_1.png" class="img-responsive" /> </p>
+                </div>
+                <div class="col-md-6 col-sm-5">
+                    <h2>Interesting Feature 1 </h2> <br/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu elit mauris. Integer sollicitudin tempus.Lorem ipsum dolor sit amet. </p>
+                    <p class="sub"> <i class="fa fa-check"></i> Lorem ipsum dolor sit amet consectetur. </p>
+                    <p class="sub"> <i class="fa fa-check"></i> Lorem ipsum dolor sit amet consectetur. </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid feature-middle-section">
+            <div class="row feature-inner">
+                <div class="col-md-6 col-sm-5">
+                    <h2>Interesting Feature 2 </h2> <br/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu elit mauris. Integer sollicitudin tempus.Lorem ipsum dolor sit amet. </p>
+                    <p class="sub"> <i class="fa fa-check"></i> Lorem ipsum dolor sit amet consectetur. </p>
+                    <p class="sub"> <i class="fa fa-check"></i> Lorem ipsum dolor sit amet consectetur. </p>
+                </div>
+                <div class="col-md-6 col-sm-7">
+                    <p class="align-center"> <img src="https://www.gridbox.io/projects/25e76cb0-fc47-4444-8f82-3c0e3d7da099/assets/img/screenshot_2.png" class="img-responsive" /> </p>
+                </div>
+            </div>
+        </div>
+        <div class="container feature-inner">
+            <div class="row">
+                <div class="col-md-6 col-sm-7">
+                    <p class="align-center"> <img src="https://www.gridbox.io/projects/25e76cb0-fc47-4444-8f82-3c0e3d7da099/assets/img/screenshot_3.png" class="img-responsive" /> </p>
+                </div>
+                <div class="col-md-6 col-sm-5">
+                    <h2>Interesting Feature 3 </h2> <br/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu elit mauris. Integer sollicitudin tempus.Lorem ipsum dolor sit amet. </p>
+                    <p class="sub"> <i class="fa fa-check"></i> Lorem ipsum dolor sit amet consectetur. </p>
+                    <p class="sub"> <i class="fa fa-check"></i> Lorem ipsum dolor sit amet consectetur. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="signup" class="signup-form">
+        <div class="img-overlay">
+            <div class="container">
+                <div class="align-center signup-form-inner">
+                    <h2>Signup for Early Beta Access. </h2>
+                    <p>and join hands with other people who have signed up. </p>
+                    <form>
+                        <div class="form-group"> <input type="email" id="exampleInputEmail1" placeholder="Email" class="form-control" /> </div> <button type="submit" class="btn btn-cyan">Signup for Early Access</button> </form>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="col-md-6 col-sm-6"> © 2017 Gridbox. </div>
+                <div class="col-sm-6 col-md-6"> <a href="http://www.twitter.com/startomatic"><i class="fa fa-twitter fa-lg"></i></a><a href="http://www.facebook.com/startomatic"><i class="fa fa-facebook-square fa-lg"></i></a> </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var $root = $('html, body');
+        $('a').click(function() {
+            var href = $.attr(this, 'href');
+            $root.animate({
+                scrollTop: $(href).offset().top
+            }, 800, function() {
+                window.location.hash = href;
+            });
+            return false;
+        });
+    </script>
+</body>
+
+</html>
